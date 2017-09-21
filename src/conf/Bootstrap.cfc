@@ -11,7 +11,7 @@ component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one" access
 		diLocations: "/src/model",
 		diConfig: {
 			loadListener: function(di1) {
-                di1.declare("Greeting").asValue("Hello World!");
+				di1.declare("Greeting").asValue("Hello World!");
 			}
 		},
 		routes: [
