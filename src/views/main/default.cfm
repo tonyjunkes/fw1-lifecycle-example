@@ -1,0 +1,1 @@
+<cfoutput><h3>#rc.greet#</h3></cfoutput>
