@@ -1,5 +1,5 @@
-# FW/1 & LogBox Example
-An example of using LogBox as a Subsystem in an FW/1 application.
+# FW/1 Life Cycle Example
+FW/1 example application demonstrating the "newer" life cycle structure.
 
 ### How to use:
 
@@ -8,5 +8,3 @@ An example of using LogBox as a Subsystem in an FW/1 application.
 - Fire up Commandbox by entering `box` in your terminal and `cd` into the project root directory.
 - Run `install` and then run `start`.
 - Start hacking away!
-
-_Currently set up to support Lucee which will start by default on CommandBox. For Adobe ColdFusion to function, Administrator level mappings will need to be set, and the syntax for extending FW/1 changed._
