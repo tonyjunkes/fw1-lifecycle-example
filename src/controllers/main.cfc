@@ -1,7 +1,7 @@
 component accessors=true {
-    property Greeting;
+	property Greeting;
 
-    void function default(struct rc) {
-        rc.greet = Greeting;
-    }
+	void function default(struct rc) {
+		rc.greet = Greeting;
+	}
 }
