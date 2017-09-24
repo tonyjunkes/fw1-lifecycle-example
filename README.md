@@ -1,5 +1,5 @@
 # FW/1 Life Cycle Example
-FW/1 example application demonstrating the "newer" life cycle structure.
+FW/1 example application demonstrating the "new" life cycle structure.
 
 ### How to use:
 
