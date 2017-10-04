@@ -1,4 +1,5 @@
-component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one" accessors=true
+component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one"
+	accessors=true
 	output=false
 {
 	// FW/1 settings
@@ -24,17 +25,17 @@ component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one" access
 
 	public void function setupApplication() { }
 
-	public void function setupEnvironment(env) { }
+	public void function setupEnvironment(string env) { }
 
 	public void function setupSession() { }
 
 	public void function setupRequest() { }
 
-	public void function setupResponse(rc) { }
+	public void function setupResponse(struct rc) { }
 
-	public void function setupSubsystem(module) { }
+	public void function setupSubsystem(string module) { }
 
-	public void function setupView(rc) { }
+	public void function setupView(struct rc) { }
 
 	public string function onMissingView(struct rc) {
 		return "Error 404 - Page not found.";
