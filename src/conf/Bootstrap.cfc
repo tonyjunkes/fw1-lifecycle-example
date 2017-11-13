@@ -1,5 +1,4 @@
 component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one"
-	accessors=true
 	output=false
 {
 	// FW/1 settings
