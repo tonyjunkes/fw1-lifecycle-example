@@ -1,8 +1,9 @@
 {
+    "name":"fw1-lifecycle-example",
     "dependencies":{
         "fw1":"be"
     },
     "installPaths":{
-        "fw1":"src\\framework"
+        "fw1":"src/framework"
     }
 }

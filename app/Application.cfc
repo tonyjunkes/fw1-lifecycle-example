@@ -1,4 +1,6 @@
-component output=false {
+component
+	output=false
+{
 	this.name = hash(getBaseTemplatePath());
 	this.applicationTimeout = createTimeSpan(0, 2, 0, 0);
 	this.sessionManagement = true;

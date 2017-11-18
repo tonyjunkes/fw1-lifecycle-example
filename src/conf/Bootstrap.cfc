@@ -1,4 +1,4 @@
-component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one"
+component displayname="FW/1 Lifecycle Bootstrap" extends="framework.one"
 	output=false
 {
 	// FW/1 settings
@@ -17,7 +17,7 @@ component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one"
 		routes: [
 			{ "/" = "/main/default" }
 		],
-		subsystems: {},
+		subsystems: { },
 		trace = true,
 		reloadApplicationOnEveryRequest = true
 	};
@@ -34,7 +34,9 @@ component displayname="FW/1 Life Cycle Bootstrap" extends="framework.one"
 
 	public void function setupSubsystem(string module) { }
 
-	public void function setupView(struct rc) { }
+	public void function setupView(struct rc) {
+		rc.date = now();
+	}
 
 	public string function onMissingView(struct rc) {
 		return "Error 404 - Page not found.";

@@ -1,4 +1,5 @@
 {
+    "name":"fw1-lifecycle-example",
     "web":{
         "webroot":"app",
         "rewrites":{
