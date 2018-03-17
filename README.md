@@ -1,6 +1,8 @@
 # FW/1 Life Cycle Example
 FW/1 example application demonstrating the "new" life cycle structure.
 
+http://tonyjunkes.com/blog/fw1-alternative-application-structure/
+
 ### How to use:
 
 - Make sure you have [Commandbox installed](https://commandbox.ortusbooks.com/content/setup/installation.html).
